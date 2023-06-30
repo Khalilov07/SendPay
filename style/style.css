@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__wrapper,
+.links__wrapper ul,
+.buttons__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo__wrapper p {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6C63FF;
+    margin-left: 13px;
+    margin-bottom: 0rem;
+}
+
+.links__wrapper ul {
+    column-gap: 40px;
+}
+
+.links__wrapper ul li {
+    list-style: none;
+}
+
+.links__wrapper ul li a {
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.buttons__wrapper {
+    column-gap: 32px;
+}
+
+.buttons__wrapper a {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.buttons__wrapper button:first-child {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 24px;
+    background: #FFFFFF;
+    border: 1.5px solid #B7B3B3;
+}
+
+.buttons__wrapper button:last-child {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px 24px;
+    margin-left: 14px;
+    background: #6C63FF;
+    border: 1.5px solid #B7B3B3;
+}
+
+/* Sending Money Block */
+
+.sending__money__wrapper {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.money__descr__wrapper {
+    width: 40%;
+}
+
+.money__descr__wrapper .money__line {
+    width: 52px;
+    margin: 28px 0;
+    border: 2px solid #B7B3B3;
+}
+
+.money__descr__wrapper p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.money__buttons {
+    display: flex;
+    margin-top: 54px;
+    column-gap: 20px;
+}
+
+.money__buttons button:first-child {
+    color: #FFFFFF;
+    padding: 15px 39px;
+    background: #6C63FF;
+    border: 1.5px solid #353434;
+}
+
+.money__buttons button:last-child {
+    color: #000000;
+    padding: 15px 19px;
+    background: #FFFFFF;
+    border: 1.5px solid #B7B3B3;
+}
+
+.money__buttons button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* How It Works Block */
+
+.how__it__works__sec {
+    padding-top: 190px;
+}
+
+.how__it_works__wrapper {
+    text-align: center;
+}
+
+.crousel__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.works__line {
+    width: 49px;
+    margin: 21px 0;
+    border: 2px solid #B7B3B3;
+}
+
+.works__descr {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.works__descr p {
+    opacity: 0.6;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card img {
+    width: 200px !important;
+    margin: 80px 0 56px;
+}
+
+.card h3 {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.card p {
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 11px;
+    line-height: 17px;
+}
+
+/* giving__services__wrapper */
+
+.giving__services__sec {
+    position: relative;
+}
+
+.giving__services__wrapper {
+    margin-top: 155px;
+}
+
+.giving__services__wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services__text {
+    display: flex;
+    column-gap: 16px;
+}
+
+.logo__text {
+    display: flex;
+    margin-top: 16px;
+    column-gap: 13px;
+    align-items: center;
+}
+
+.logo__text p {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6C63FF;
+}
+
+.services__line {
+    width: 49px;
+    margin: 26px 0 36px;
+    border: 2px solid #B7B3B3;
+}
+
+.services__top {
+    display: flex;
+    margin-bottom: 105px;
+}
+
+.services__bottom {
+    display: flex;
+}
+
+.services__lorem {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B7B3B3;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.cards__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__services {
+    width: 35%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.card__text {
+    margin: 15px 0 0 28px;
+}
+
+.card__text h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+.card__text p {
+    font-weight: 600;
+    font-size: 15px;
+    color: #B7B3B3;
+    line-height: 22px;
+    margin-top: 19px;
+}
+
+.backround1,
+.backround2 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.backround1 {
+    right: 105px;
+}
+
+.backround2 {
+    left: 105px;
+}
+
+/* Saying About Us */
+
+.saying__about__us {
+    margin-top: 200px;
+    padding: 62px 0 72px;
+    overflow: hidden;
+    background-color: #6C63FF;
+}
+
+.about__us__wrapper {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.about__us__descr {
+    width: 13%;
+}
+
+.about__us__descr h3 {
+    color: #FFF;
+    font-size: 33px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.descr__line {
+    width: 58px;
+    height: 2px;
+    margin: 17px 0 26px;
+    background: #FFF;
+}
+
+.about__us__descr a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.about__us__descr a span {
+    color: black;
+    border-radius: 50%;
+    padding: 5px 11px;
+    margin-left: 11px;
+    background: #FFF;
+}
+
+.about__us__comments {
+    display: flex;
+    column-gap: 18px;
+    justify-content: end;
+}
+
+.comments {
+    width: 60%;
+    border-radius: 15px;
+    padding: 23px 50px 28px 26px;
+    background-color: #FFFFFF;
+}
+
+.comments .comments__lorem {
+    color: #000;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 175.9%;
+}
+
+.comments__logo {
+    display: flex;
+    margin-top: 25px;
+    column-gap: 19px;
+    align-items: center;
+}
+
+
+.comments__text .text1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 175.9%;
+}
+
+.comments__text .text2 {
+    color: #787777;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 175.9%;
+}
+
+.owl-carousel .owl-item img {
+    width: 15%;
+}
+
+/* font-family: 300, 400, 500, 600, 700 */
